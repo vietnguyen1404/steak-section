@@ -1,0 +1,394 @@
+.steack-selection {
+  /* padding: 20px; */
+  
+}
+
+.steack-container {
+  padding: 20px;
+  border: 20px solid #9E855C;
+  background-color: #FEF2BE;
+}
+.steack-selection .steak-list {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.steack-selection .steak-list .steak-item-list.column-1 {
+  width: 25%;
+}
+
+.steack-selection .steak-list .steak-item-list.column-2 {
+  width: 50%;
+}
+.steack-selection .steak-list .steak-item-list.column-3 {
+  width: 25%;
+}
+
+
+.steack-selection .steak-list .steak-item {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 2px solid #4A4733;
+}
+
+.steack-selection .steak-item .steak-item-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #9D2B30;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  padding: 0 30px;
+  background-color: #FFF1C0;
+}
+
+.steack-selection .steak-item  .steak-content {
+  padding: 8px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.steack-selection .steak-item  .steak-content:last-child {
+  border-bottom: none;
+}
+
+.steack-selection .steak-item  .steak-title {
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.steack-selection .steak-item  .steak-sub-title {
+  font-weight: 400;
+  font-size: 12px;
+}
+.steack-selection .steak-item  .steak-number {
+  font-weight: 500;
+}
+
+.steack-selection .steak-item .steak-content-footer {
+  margin-top: 20px;
+  padding: 8px 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 8px;
+  background-color: #BBA677;
+}
+
+.steack-selection .steak-item .content-footer-item {
+  text-align: center;
+}
+.steack-selection .steak-item .footer-item-heading-title {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.steack-selection .steak-item .footer-item-title {
+  margin-bottom: 4px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.steack-selection .steak-item .footer-item-num {
+  font-weight: 400;
+}
+
+
+
+/* colum giua */
+.steak-selection-title {
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #9D2B30;
+}
+
+
+.header-wrapper {
+  padding: 20px 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  background-color: #D7C698;
+}
+
+
+.special-title {
+  text-align: center;
+}
+.special-sub-title {
+  text-align: center;
+}
+
+.steack-selection .steak-list .steak-item-list.column-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.steack-selection .steak-list .steak-item-list.column-2 .steak-item-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #9D2B30;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 24px;
+  transform: translateY(-50%);
+  padding: 0 30px;
+  background-color: #FFF1C0;
+}
+
+.special-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 16px;
+  background-color: #FFFFFF;
+  padding: 10px 0;
+}
+
+.special-item {
+  width: 33.33333%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.special-range-list {
+  display: flex;
+  width: 70%;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.special-range-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+.special-range-item:last-child {
+  margin-bottom: 0;
+}
+
+img.special-logo {
+  max-width: 40px;
+  height: auto;
+}
+
+/* foter 2 bang */
+.special-footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  position: relative;
+}
+
+.footer-item.item-1 {
+  width: 60%;
+  /* display: flex; */
+
+}
+
+.footer-item.item-1 .steak-item-footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+  border: 2px solid #4A4733;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+}
+.footer-item.item-1 .steak-content {
+  padding: 10px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.footer-item.item-1 .steak-content:last-child {
+  border-bottom: none;
+}
+
+
+.footer-item.item-1 .item-left {
+  width: 50%;
+}
+
+.footer-item.item-1 .item-right {
+  width: 50%;
+}
+
+.footer-item.item-2 {
+  width: 40%;
+}
+
+.footer-item.item-2 .steak-title {
+  font-weight: 400;
+}
+
+
+
+
+
+
+.special-copy-text {
+  font-weight: 500;
+  text-align: center;
+}
+
+
+/* menu detail */
+.menu-detail {
+  margin-bottom: 20px;
+}
+
+.menu-wrapper-column {
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+  display: flex;
+  width: 100%;
+}
+
+.menu-column {
+  width: 20%;
+  text-align: center;
+}
+
+.column-title {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu-branch {
+  /* margin-left: 50px; */
+}
+
+
+.row-line {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  border-bottom: 1px solid;
+  padding: 10px 0;
+}
+
+.row-product-branch {
+  width: 20%;
+}
+
+.menu-column-price {
+  flex-grow: 1;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+}
+
+
+
+
+/* steak-experience */
+
+.steak-experience {
+  margin-bottom: 20px;
+}
+
+.experience-section-title {
+  text-align: center;
+  color: #9D2B30;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.experience-sub-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+
+.experience-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experience-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p.experience-branch {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.experience-title {
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.experience-price {
+  font-weight: 400;
+}
+
+
+
+.steak-experience .steak-content-footer {
+  margin-top: 20px;
+  padding: 4px 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 8px;
+  background-color: #ffffff;
+  width: 70%;
+  margin: 20px auto 0;
+}
+
+.steak-experience .content-footer-item {
+  text-align: center;
+}
+
+.steak-experience .footer-item-heading-title {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.steak-experience .footer-item-title {
+  margin-bottom: 4px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.steak-experience .footer-item-num {
+  font-weight: 400;
+}
